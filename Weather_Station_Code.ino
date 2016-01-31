@@ -10,7 +10,7 @@
     Arduino Due 32-bit 84MHz ARM SAM3X8E
  *  *
     BMP180 atmospheric pressure sensor (I2C channel 20,21)
-    AM2302 temperature and humidity sensor (oneWire) for indoor temp on 52
+    AM2302 temperature and humidity sensor (oneWire) for indoor temp on 53
     AM2302 temperature and humidity sensor (oneWire) for outdoor temp on 51
     DS3234 Real Time Clock module (SPI- using Due extended SPI capabilities), CS on pin 4
  *  *
