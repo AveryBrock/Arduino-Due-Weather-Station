@@ -1,6 +1,6 @@
 My name is Avery Brock and I am currently a Freshman at the University of Idaho majoring in Electrical Engineering. I have been interested in electronics and science from a very young age and I have participated many robotics events including the MATE ROV competition and FIRST FRC. In my spare time I like to tinker and work on random projects which I hope to document and publish more often then I have been. 
 
-#Arduino-Due-Weather-Station
+#Arduino Due Weather Station
 Arduino Due based weather station, data logger and grapher with a TFT display. 
 
 Dorm Weather Station code by Avery Brock. The original concept was to take the readings from an indoor and an outdoor
