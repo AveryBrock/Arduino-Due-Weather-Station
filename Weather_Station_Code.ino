@@ -649,7 +649,7 @@ void printDate(int x, int y, int s, uint16_t color) {
   tft.setCursor(x, y);
   tft.setTextColor(color);
   tft.print(month);                       //we need to reprint the day so our spacing works out
-  month = lastTimeDate[4] + slash;
+  day = lastTimeDate[4] + slash;
   tft.print(day);
 
   if (TimeDate[6] != lastTimeDate[6]) {
