@@ -631,7 +631,7 @@ void printDate(int x, int y, int s, uint16_t color) {
 
   tft.setTextColor(color);                //now we can print the real month
   tft.setCursor(x, y);
-  day = lastTimeDate[5] + slash;
+  month = lastTimeDate[5] + slash;
   tft.print(month);
 
   if (TimeDate[4] != lastTimeDate[4]) {   //repeat the same thing for day and year
