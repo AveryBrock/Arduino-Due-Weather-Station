@@ -3,6 +3,8 @@ My name is Avery Brock and I am currently a Freshman at the University of Idaho 
 #Arduino Due Weather Station
 Arduino Due based weather station, data logger and grapher with a TFT display. 
 
+Youtube video link: https://youtu.be/dQGrQ0DRW0o
+
 Dorm Weather Station code by Avery Brock. The original concept was to take the readings from an indoor and an outdoor
    temperature sensor and be able to display the current temperature, time, highs and lows.
 
@@ -28,10 +30,10 @@ Dorm Weather Station code by Avery Brock. The original concept was to take the r
   re-printed on the display to minimize flickers. Functions have been made for each data 'module' (printTime,
   printDate, printTemp..) to make it easy to change the display arrangement. All data is also sent out via serial.
 
-  SD card on TFT breakout logs data at a set interval. Data is stored in CSV format for excel compatablility.
-  New data files are created each day and a count of how many datapoints have been taken is also stored on the
+  SD card on TFT breakout logs data at a set interval. Data is stored in CSV format for excel compatibility.
+  New data files are created each day and a count of how many data points have been taken is also stored on the
   SD card in a .txt file. Count is reset when a new data file is started. If the SD card is missing or has no files to read
-  files are either created or the system simply does not log. All data and data files are timestamped.
+  files are either created or the system simply does not log. All data and data files are time-stamped.
 
   Graphing function reads the current day's data file and scales the data based on the number of datapoints and
   the calculated highs and lows. High points are traced in red, lows in blue. Highs and lows are also labeled on
